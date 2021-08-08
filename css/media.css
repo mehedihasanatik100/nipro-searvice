@@ -1,0 +1,135 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    /* header area start */
+    header {
+        padding: 10px 0;
+    }
+    .c_logo h1{
+        font-size: 25px;
+    }
+    .C_dd-menu {
+        min-width: 280px;
+    }
+    .C_dd-menu[data-bs-popper] {
+        top: 153%;
+        left: 5px;
+    }
+    /* header area end */
+
+    /* slider area start */
+    .slider-content{
+        margin: 75px 0;
+    }
+    .slider-content h1{
+        font-size: 35px;
+    }
+    .slider-content p{
+        padding: 20px 0 30px;
+        padding-right: 0%;
+        line-height: 25px;
+    }
+    .C_ccp, .C_ccn{
+        margin-left: 30px;
+    }
+    /* slider area end */
+    /* service area start */
+    .service-paragraph {
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .C-h1 {
+        font-size: 25px;
+    }
+    .service-paragraph p {
+        font-size: 14px;
+    }
+    .s-service {
+        margin-top: 30px;
+    }
+    /* service area end */
+	
+}
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px)  {
+    /* header area start */
+    .C_dd-menu[data-bs-popper] {
+        top: 153%;
+        left: 10px;
+    }
+    /* header area end */
+
+    /* slider area start */
+    .slider-content{
+        margin: 100px 0
+    }
+    .slider-content h1{
+        font-size: 45px;
+    }
+    .slider-content p{
+        padding: 25px 0 35px;
+        padding-right: 2%;
+        line-height: 27px;
+    }
+    /* slider area end */
+
+    /* service area start */
+    .service-paragraph {
+        margin-bottom: 35px;
+        margin-top: 25px;
+    }
+    .C-h1 {
+        font-size: 27px;
+    }
+    .service-paragraph p {
+        font-size: 15px;
+    }
+    .s-service {
+        margin-top: 40px;
+    }
+    /* service area end */
+	
+}
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px)  {
+    /* header area start */
+    .C_dd-menu[data-bs-popper] {
+        top: 153%;
+        left: 10px;
+    }
+    /* header area end */
+    /* slider area start */
+    .slider-content{
+        margin: 150px 0;
+    }
+    .slider-content h1{
+        font-size: 50px;
+    }
+    .slider-content p{
+        padding: 35px 0 45px;
+        padding-right: 11%;
+        line-height: 28px;
+    }
+    /* slider area end */
+    /* service area start */
+    .service-paragraph {
+        margin-bottom: 70px;
+    }
+    /* service area end */
+	
+}
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px)  {
+	
+}
+
+ /*XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}

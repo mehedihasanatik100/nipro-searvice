@@ -1,0 +1,203 @@
+
+/* common css start */
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #8e8e8e;
+}
+a{
+    text-decoration: none;
+}
+/* common css end */
+
+/* header area start css */
+header{
+    padding: 13px 0;
+
+}
+.c_logo h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.menu ul li a{
+    margin: 0 10px;
+    font-family: 'Lato', sans-serif;
+    color: #8e8e8e !important;
+    text-transform: uppercase;
+}
+
+.C_btn-search i:hover,
+.menu ul li a.active,
+.menu ul li a:hover{
+    color: #333333 !important;
+}
+
+.C_nav-search{}
+.C_btn-search:focus{
+    box-shadow: none;
+}
+.C_btn-search i{
+    color: #8e8e8e !important;
+}
+
+.C_dd-menu[data-bs-popper] {
+    top: 160%;
+    left: -305px;
+}
+
+.C_dd-menu {
+    min-width: 350px;
+    padding: 5px;
+    border-radius: 15px;
+}
+.C_dd-menu input{
+    border: none;
+}
+.C_dd-menu input:focus{
+    box-shadow: none;
+}
+/* header area end css */
+
+/* slider area start css */
+.slider{
+    background: url(../image/slider-image.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slider-content{
+    margin: 200px 0;
+
+}
+.slider-content h1{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 59px;
+    font-weight: 700;
+    color: #ffffff;
+}
+.slider-content p{
+    margin:0 ;
+    padding: 40px 0 50px;
+    color: #ffffff;
+    padding-right: 3%;
+    line-height: 30px;
+}
+.slider-btn {
+    display: inline-block;
+    padding:12px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+	background: #ffffff !important;
+    color: #333333 !important;
+    text-transform: uppercase;
+    z-index: 999;
+}
+.button-arrow{
+    visibility: hidden;
+    opacity: 0;
+    transition: .4s;
+}
+.slider-btn:hover .button-arrow{
+    visibility: visible;
+    opacity: 1;
+    padding-left:15px;
+}
+.C_ccp{
+    left: -30px;
+}
+.C_ccn{
+    left: 45px;
+}
+.C_ccp, .C_ccn{
+    top: 90%;
+    align-items: flex-end;
+    color: #8e8e8e !important;
+}
+.C_ccp, .C_ccn:hover{
+    color: #333333 !important;
+}
+.C_ccp span, .C_ccn span{
+    background-image: none;
+}
+/* slider area end css */
+
+/* service area start css */
+.service{}
+.t_arrow {
+    width: 1px;
+    height: 35px;
+    margin: 0px auto;
+    background: rgb(51, 51, 51);
+}
+.common-title{
+    
+}
+.C-h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #333333;
+}
+.service-paragraph{
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.service-paragraph p{
+    color: #8e8e8e;
+}
+.s-service{
+    margin-top: 50px;
+    padding: 70px 20px 40px;
+    border: 1px solid #8e8e8e;
+}
+.Service_icon{
+    width: 70px;
+    margin: 0 auto;
+    margin-top: -91px;
+    background-color: #fff;
+}
+.Service_icon i{
+    font-size: 60px;
+}
+.s-service h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    margin: 30px 0 0;
+}
+.s-service hr{
+    width: 50px;
+    margin:20px auto;
+}
+.s-service p{
+    margin: 0;
+    padding-bottom: 30px;
+}
+.s-service a{
+    text-transform: uppercase;
+    color: #8e8e8e;
+    line-height: 1.5;
+    vertical-align: middle;
+    padding: 10px 10px;
+}
+.s-service a span{
+    padding-left: 5px;
+}
+
+.s-service:hover{
+    color: #333333 !important;
+    border: 1px solid #333333;
+}
+
+.s-service:hover h2,
+.s-service:hover a{
+    color: #333333 !important;
+}
+
+/* service area end css */
